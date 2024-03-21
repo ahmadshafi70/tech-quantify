@@ -1,0 +1,5 @@
+User-agent: *
+allow:/
+Disallow:public
+Disallow:billing.techhost.pk
+Disallow:billing
