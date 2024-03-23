@@ -26,7 +26,7 @@
         </div><!-- .container END -->
     </div>    <!-- End topBar section -->
 </div>
-    <!-- header section -->
+<!-- header section -->
 <header class="xs-header">
     <div class="container">
         <div class="row">
@@ -221,7 +221,7 @@
                                 </div>
                             </li>
                             <li><a href="#">Contact Us</a></li>
-                            <!--<li><a href="#">Blog</a></li>-->
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                 </nav>

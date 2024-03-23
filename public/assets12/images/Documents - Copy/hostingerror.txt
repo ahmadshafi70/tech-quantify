@@ -1,0 +1,3 @@
+Hello Fahad.
+﻿I see that your cPanel user rabbitry is reaching his physical memory limit and that can cause outages to appear. You can see that in cPanel -> Resource Usage menu.
+﻿I have reset rabbitry user package to R10 and that raised the 256 MB limit to 1 GB. This should prevent such errors.

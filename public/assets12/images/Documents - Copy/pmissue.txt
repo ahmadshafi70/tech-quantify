@@ -1,0 +1,41 @@
+https://perfectmoney.is/sci_generator.html
+http://perfectmoney.is/create_button.html
+
+
+Hello,
+
+At the moment the simplest & fastest way of starting receiving payments
+is Perfect Money Payment button. All you need to do is create payment
+button and insert it to your website/blog.
+Use this online tool to create payment buttons:
+http://perfectmoney.is/create_button.html
+
+If you need more advanced installation you can install Perfect Money
+Shopping Cart Interface.
+
+To install Perfect Money SCI manually please follow the documentation:
+https://perfectmoney.is/documents/perfectmoney-sci-2.0.doc
+
+You can use SCI generator to generate payment form:
+https://perfectmoney.is/sci_generator.html
+
+Alternate PassPhrase which you need for payment verification can be
+found and set under Settings section in your PM account.
+
+Sample PHP-scripts to verify payments can be found here:
+https://perfectmoney.is/sample-api.html
+
+To improve the security level of payment verification we suggest to add payment
+checking via API interface. This means that when confirmation comes to
+your STATUS_URL you need to make a request
+to our API function historycsv.asp passing batch number of transaction.
+In return you will get payment info (if payment with the batch_id
+exists) or no payment info (if no payment with such batch was actually
+done). You should check if payment info you got in confirmation
+corresponds to payment info you got in this API request.
+
+This document describes how to programmatically interact with the Perfect Money web
+site (API): https://perfectmoney.is/documents/perfectmoney-api.doc
+
+Best Regards, Richard Brezak
+Perfect Money API

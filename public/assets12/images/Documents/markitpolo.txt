@@ -1,0 +1,5 @@
+
+Username	markitpo
+Password	3o6xF5Yo3a
+Control Panel URL: http://62.171.138.219:2082
+Once your domain has propogated, you may also use http://www.markitpolo.com:2082

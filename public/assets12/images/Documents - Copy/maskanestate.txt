@@ -1,0 +1,20 @@
+$P$BhPXPAub9jhE.N0sgMHVTwkeAL.SFr.
+cab2078f67a8bf51e09ea839777cba86
+cab2078f67a8bf51e09ea839777cba86
+
+
+
+define( 'DB_NAME', 'maskan1es2_wp761' );
+
+/** MySQL database username */
+define( 'DB_USER', 'maskan1es2_wp761' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', 'Tt~g,_2#-.$+' );
+
+[9:25 AM, 7/20/2020] +92 322 8822337: maskanestates.com/cpanel	
+maskan1es2	
+\G2|S5%q1f18]9B
+[9:25 AM, 7/20/2020] +92 322 8822337: maskanestates.com/wp-admin
+admin
+Doffee1122Coffee

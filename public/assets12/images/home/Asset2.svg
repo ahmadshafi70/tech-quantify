@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 93.41 76.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-6 {
+        stroke-width: .94px;
+      }
+
+      .cls-1, .cls-4, .cls-6 {
+        stroke: #7f98cd;
+      }
+
+      .cls-7, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-3 {
+        stroke-width: .63px;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-5 {
+        stroke: url(#linear-gradient-4);
+        stroke-width: 1.88px;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="37.35" y1="45.49" x2="92.94" y2="45.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#486ab2"/>
+      <stop offset="1" stop-color="#292b74"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="57.56" y2="57.56" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="69.29" y2="69.29" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0" y1="38.17" x2="56.18" y2="38.17" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1=".94" y1="69.29" x2="55.24" y2="69.29" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="4.38" y1="8.32" x2="10.65" y2="8.32" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="4.38" y1="57.56" x2="10.65" y2="57.56" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="45.74" y1="8.32" x2="52.01" y2="8.32" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="45.74" y1="57.56" x2="52.01" y2="57.56" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="11.48" y1="33.32" x2="44.7" y2="33.32" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-1" d="M37.35,39.04h49.15c3.55,0,6.44,2.89,6.44,6.44h0c0,3.55-2.89,6.44-6.44,6.44H37.35v-12.88h0Z"/>
+        <path class="cls-6" d="M37.35,51.12h49.15c3.55,0,6.44,2.89,6.44,6.44h0c0,3.55-2.89,6.44-6.44,6.44H37.35v-12.88h0Z"/>
+        <path class="cls-4" d="M37.35,62.85h49.15c3.55,0,6.44,2.89,6.44,6.44h0c0,3.55-2.89,6.44-6.44,6.44H37.35v-12.88h0Z"/>
+        <g>
+          <circle class="cls-7" cx="84.81" cy="45.49" r="2.22"/>
+          <circle class="cls-7" cx="77.91" cy="45.49" r="2.22"/>
+        </g>
+        <g>
+          <circle class="cls-7" cx="84.81" cy="57.56" r="2.22"/>
+          <circle class="cls-7" cx="77.91" cy="57.56" r="2.22"/>
+        </g>
+        <g>
+          <circle class="cls-7" cx="84.81" cy="69.29" r="2.22"/>
+          <circle class="cls-7" cx="77.91" cy="69.29" r="2.22"/>
+        </g>
+        <line class="cls-2" x1="56.37" y1="45.49" x2="72.15" y2="45.49"/>
+        <line class="cls-2" x1="56.37" y1="57.56" x2="72.15" y2="57.56"/>
+        <line class="cls-2" x1="56.37" y1="69.63" x2="72.15" y2="69.63"/>
+      </g>
+      <rect class="cls-5" x=".94" y=".94" width="54.29" height="74.46"/>
+      <rect class="cls-10" x=".94" y="63.19" width="54.29" height="12.21"/>
+      <rect class="cls-8" x="4.38" y="5.19" width="6.27" height="6.27"/>
+      <rect class="cls-11" x="4.38" y="54.42" width="6.27" height="6.27"/>
+      <rect class="cls-7" x="2.52" y="68.06" width="3.73" height="3.73"/>
+      <rect class="cls-7" x="7.39" y="68.06" width="3.73" height="3.73"/>
+      <rect class="cls-7" x="47.01" y="68.06" width="3.73" height="3.73"/>
+      <rect class="cls-13" x="45.74" y="5.19" width="6.27" height="6.27"/>
+      <rect class="cls-12" x="45.74" y="54.42" width="6.27" height="6.27"/>
+      <g>
+        <circle class="cls-9" cx="28.09" cy="33.32" r="16.61"/>
+        <circle class="cls-3" cx="28.09" cy="33.32" r="7.51"/>
+      </g>
+    </g>
+  </g>
+</svg>
