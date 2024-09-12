@@ -8,6 +8,9 @@ Grow your business online with Tech Host.pk's secure & affordable business hosti
 @section('code')
 
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/business-hosting" />
+@endsection
 @section('content')
 @push('css')
 .logo {

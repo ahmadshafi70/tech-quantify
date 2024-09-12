@@ -9,17 +9,9 @@ Elevate your WordPress experience with Tech Host's premium WordPress hosting sol
 
 @endsection
 @section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
-@section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/wordpress-hosting" />
+@endsection
 <!-- banner section -->
 <section class="xs-banner service-banner contet-to-center" style="min-height: 200px;">
     <div class="container-fluid">

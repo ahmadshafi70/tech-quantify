@@ -8,12 +8,11 @@ Elevate your brand's online presence with Techhost, the top social media marketi
 @section('code')
 
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/smm" />
+@endsection
 @section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
+
 @section('content')
 <!-- banner section -->
 <section class="xs-banner service-banner contet-to-center" style="min-height: 300px;">

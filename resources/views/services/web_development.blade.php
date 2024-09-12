@@ -8,17 +8,238 @@ Elevate your online presence with Tech Host's professional website development i
 @section('code')
 {{!empty($cms->code)?$cms->code:''}}
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/website-development" />
+@endsection
 @section('content')
 @push('css')
 <style>
-.logo {
-    
+.dev-icons {
+    width:55px;
+    height:55px;
 }
 .quote-link {
 color:#454249 ;
 }    
 </style>
+<style>
+    .process-container {
+        max-width: 1140px !important;
+    }	
+.process-icon::after {
 
+		content: '';
+		justify-content: center;
+		width: -1rem !important;
+		border-left: 5px solid #097ffc !important;
+		height: 122px;
+		right: 0px;
+    	left: 23px;
+    	position: absolute;
+	}
+	.process-icon-bellow:before {
+		content: '';
+		justify-content: center;
+		width: -1rem !important;
+		border-left: 5px solid #097ffc !important;
+		height: 133px;
+		right: 0px;
+    	left: 22px;
+    	position: absolute;	
+	}
+
+	.rounded-icons {
+		width: 50px;
+		padding: 10px 10px 10px 10px;
+		border-radius: 100%;
+		background: #0e1859;
+		color: white;
+		transition: transform 2s;
+		
+	}
+	/*.rounded-icons:after {
+		content: '';
+		justify-content: center;
+		width: -1rem !important;
+		border-left: 5px solid #097ffc !important;
+		height: 80px;
+		right: 0px;
+    	left: 0px;
+    	position: relative;
+		
+	}*/
+	.rounded-icons:hover {
+		background: #097ffc;
+		transform: rotate(360deg);
+	}
+	.rounded-icons-bellow {
+		width: 50px;
+		padding: 10px 10px 10px 10px;
+		border-radius: 100%;
+		background: #0e1859;
+		color: white;
+		position: absolute;
+		bottom: 0;
+		transition: transform 2s;
+		
+	}
+	.rounded-icons-bellow:hover {
+		background: #097ffc;
+		transform: rotate(360deg);
+	}
+	.fa-process {
+	margin: atuo;
+	padding: 2px 10px 5px 20px;
+	margin-left: 3px;
+	}
+	.process {
+		width: 100%;
+	}
+	.block-one {
+		width: 10%;	
+	}
+	.block-text {
+		width: 20%;	
+	}
+	.block-icon {
+		position: relative;
+		width: 20%;	
+	}
+	.bar {
+		color: white;
+	}
+	
+        .process-content {
+            margin-top: 20px
+        }
+
+        .process-content h5 {
+            color: #0e1859;
+            font-size: 16px;
+            font-weight: 800
+        }
+
+        .process-content p {
+            font-size: 14px
+        }
+
+        .process-container {
+            margin-top: 30px;
+            margin-bottom: 50px
+        }
+
+        .process-container h2 {
+            font-size: 48px;
+            color: #2e1c6a;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 30px
+        }
+
+        .margins {
+            margin-left: 0 !important;
+            margin-right: 0 !important
+        }
+
+        .number {
+            color: #fff;
+            margin-left: 6px
+        }
+
+        .process-content {
+            margin-top: 20px
+        }
+
+        .process-content h5 {
+            color: #0e1859;
+            font-size: 16px;
+            font-weight: 800
+        }
+
+        .process-content p {
+            font-size: 14px
+        }
+
+        .process-container {
+            margin-top: 30px;
+            margin-bottom: 50px
+        }
+
+        .process-container h2 {
+            font-size: 48px;
+            color: #2e1c6a;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 30px
+        }
+
+        .margins {
+            margin-left: 0 !important;
+            margin-right: 0 !important
+        }
+
+        .number {
+            color: #fff;
+            margin-left: 6px
+        }
+      .bg-exam__1_ {
+            width: 19px;
+            height: 25px;
+            background: url('assets/images/development/webdevelopment-company-in-lahore.webp') -10px -52px
+        }
+
+        .bg-Group_2395 {
+            width: 22px;
+            height: 22px;
+            background: url('assets/images/development/webdevelopment-company-in-lahore.webp') -10px -10px
+        }
+
+        .bg-Group_2397 {
+            width: 26px;
+            height: 16px;
+            background: url('assets/images/development/webdevelopment-company-in-lahore.webp') -52px -10px
+        }
+
+        .bg-shuttle {
+            width: 19px;
+            height: 19px;
+            background: url('assets/images/development/webdevelopment-company-in-lahore.webp') -52px -46px
+        }
+
+        .bg-tools {
+            width: 19px;
+            height: 19px;
+            background: url('assets/images/development/webdevelopment-company-in-lahore.webp') -98px -10px
+        }
+	@media  only screen and (max-width: 600px) {
+		.process-container {
+			overflow-x: scroll;
+		}
+		.process-icon::after {
+
+			content: '';
+			justify-content: center;
+			width: -1rem !important;
+			border-left: 5px solid #097ffc !important;
+			height: 123px !important;
+			right: 0px;
+	    	left: 23px;
+	    	position: absolute;
+		}
+		.process-icon-bellow:before {
+			content: '';
+			justify-content: center;
+			width: -1rem !important;
+			border-left: 5px solid #097ffc !important;
+			height: 153px !important;
+			right: 0px;
+	    	left: 22px;
+	    	position: absolute;	
+		}
+	}
+	
+</style>
+</style>
 @endpush
 <section class="xs-banner " style="min-height: 300px;">
     <div class="container-fluid">
@@ -150,6 +371,119 @@ color:#454249 ;
                         </div>
                 </div><!-- .container END -->
         </div>
+        
+<section class="xs-section-padding xs-hosting-info" >
+    <div class="container process-container" id="process">
+	<h2 style="text-align:center;">Our Process</h2>	
+	<div class="process margins" style="width: 1050px; display: flex;">
+		<div class="block-one"></div>
+		<div class="block-text">
+			<div class="process-content">
+				<p>Understand what you want out of your site and how do you plan to implement it.</p>
+				<h5>PLANNING</h5>	
+			</div>
+		</div>
+		<div class="block-icon">
+			<div class="process-icon">
+				<div class="rounded-icons">
+				<i class="bg-Group_2397 fa-process" style="color:white;"></i>	
+			</div>
+			</div>
+		</div>
+		<div class="block-text">
+			<div class="process-content">
+				<p>Once the site is ready, it should be checked and tested to ensure an error free working.</p>
+				<h5>REVIEW &amp; TEST</h5>
+			</div>
+			
+		</div>
+		<div class="block-icon">
+			<div class="process-icon">
+				<div class="rounded-icons">
+					<i class="bg-shuttle fa-process"></i>	
+				</div>	 
+			</div>
+		</div>
+		<div class="block-text">
+			<div class="process-content">
+				<p>It is an important step which makes sure that your site works with efficiency all the time.</p>
+				<h5>MAINTENANCE</h5>
+			</div>
+			
+		</div>
+		<div class="block-seven">
+			
+		</div>
+
+	</div>
+	
+	<div class="process margins bar" style="width: 1050px; display: flex;background-color:#017bfc;">
+		<div class="block-one"></div>
+		<div class="block-text" style="margin-left:20px;">
+				1
+		</div>
+		<div class="block-icon">
+			    2
+		</div>
+		<div class="block-text">
+				3
+		</div>
+		<div class="block-icon" style="margin-left:40px;">
+			    4
+		</div>
+		<div class="block-text">
+				5
+		</div>
+		<div class="block-seven">
+				
+		</div>
+
+	</div>	
+	<div class="process margins" style="width: 1050px; display: flex;">
+		<div class="block-one"></div>
+		<div class="block-icon">
+			<div class="process-icon-bellow">
+				<div class="rounded-icons-bellow">
+				<i class="bg-Group_2395 fa-process"></i>	
+			</div>
+			</div>
+		</div>
+		<div class="block-text">
+			<div class="process-content">
+				<p>We provide web development in Lahore with content management systems for clients who need more than just the basics.</p>
+				<h5>Development</h5>	
+			</div>
+		</div>
+		<div class="block-icon">
+			<div class="process-icon-bellow">
+				<div class="rounded-icons-bellow">
+					<i class="bg-exam__1_ fa-process"></i>	
+				</div>	 
+			</div>
+		</div>
+		<div class="block-text">
+			<div class="process-content">
+				<p>After successful testing the product is delivered / deployed to the customer for their use.</p>
+				<h5>Launch</h5>
+			</div>
+			
+		</div>
+		
+		<div class="block-icon">
+			<div class="process-icon-bellow">
+				<div class="rounded-icons-bellow">
+					<i class="bg-tools fa-process"></i>	
+				</div>	 
+			</div>
+		</div>
+		<div class="block-seven">
+			
+		</div>
+
+	</div>
+	
+</div>   
+</section>     
 <section class="xs-section-padding xs-hosting-info">
     <div class="container">
         <div class="row">
@@ -456,21 +790,21 @@ ul.tech-list li .icon {
             
             <div class="row">
                 <div class="col-md-2">
-                    <img src="{{asset('assets/quote/location.png')}}" alt="">
+                    <img class="dev-icons" src="{{asset('assets/quote/location.png')}}" alt="location marker">
                 </div>
                 <div class="col-md-10" style="text-align:left;">
                     <h6>Address</h6>
                     <p>Lahore</p>
                 </div>
                 <div class="col-md-2">
-                    <img src="{{asset('assets/quote/phone.svg')}}" alt="">
+                    <img class="dev-icons" src="{{asset('assets/quote/phone.png')}}" alt="phone reciever">
                 </div>
                 <div class="col-md-10" style="text-align:left;">
                     <h6>Phone</h6>
                     <p><a class="quote-link" href="tel:+923244959666">+92324 4959 666</a></p>
                 </div>
                 <div class="col-md-2">
-                    <img src="{{asset('assets/quote/envelope.png')}}" alt="">
+                    <img class="dev-icons" src="{{asset('assets/quote/email.png')}}" alt="email envelop">
                 </div>
                 <div class="col-md-10" style="text-align:left;">
                     <h6>Email</h6>

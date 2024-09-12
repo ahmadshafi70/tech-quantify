@@ -8,16 +8,11 @@ Boost your website & apps with Pakistan's top-rated VPS hosting. Scalable resour
 @section('code')
 
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/ssd-servers" />
+@endsection
 @section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
-@section('content')
-@push('css')
 
-@endpush
 <!-- banner section -->
 <section class="xs-banner service-banner contet-to-center" style="min-height: 300px;">
     <div class="container-fluid">

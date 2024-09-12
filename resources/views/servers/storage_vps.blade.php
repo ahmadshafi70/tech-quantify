@@ -8,18 +8,11 @@ High-Capacity Storage VPS Solutions | Techhost
 @section('code')
 
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/storage-vps-serverss" />
+@endsection
 @section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
-@section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
+
 <!-- banner section -->
 <section class="xs-banner service-banner contet-to-center" style="min-height: 300px;">
     <div class="container-fluid">

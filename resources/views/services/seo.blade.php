@@ -9,12 +9,10 @@
 @section('code')
 {{!empty($cms->code)?$cms->code:''}}
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/seo" />
+@endsection
 @section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
 
 
 <section class="xs-banner" style="min-height: 300px;">

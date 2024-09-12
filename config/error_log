@@ -1,0 +1,24 @@
+[26-May-2024 16:37:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/techhost/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/techhost/public_html/config/database.php on line 18
+[26-May-2024 16:37:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/techhost/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/techhost/public_html/config/database.php on line 18
+[23-Jul-2024 05:14:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/techhost/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/techhost/public_html/config/database.php on line 18
+[23-Jul-2024 05:14:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/techhost/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/techhost/public_html/config/database.php on line 18
+[23-Jul-2024 22:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/techhost/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/techhost/public_html/config/database.php on line 18
+[23-Jul-2024 22:07:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/techhost/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/techhost/public_html/config/database.php on line 18

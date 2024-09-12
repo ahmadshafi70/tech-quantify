@@ -8,6 +8,9 @@ Become a hosting provider in Pakistan with Tech Host's reseller hosting solution
 @section('code')
 
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/reseller-hosting" />
+@endsection
 @section('content')
 @push('css')
 .logo {

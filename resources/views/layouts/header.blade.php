@@ -15,10 +15,10 @@
             </div>
             <div class="col-md-6">
                 <ul class="top-menu">
-                    <li><a href="#"><i class="icon icon-key2"></i> Login</a></li>
-                    <li><a href="#"><i class="icon icon-user2"></i> register</a></li>
+                    <li><a href="{{url('https://billing.techhost.pk/index.php?rp=/login')}}"><i class="icon icon-key2"></i> Login</a></li>
+                    <li><a href="{{url('https://billing.techhost.pk/register.php')}}"><i class="icon icon-user2"></i> register</a></li>
                     <!--<li><a href="#"><i class="icon icon-dollar"></i>Payments</a></li>-->
-                    <li><a href="#"><i class="icon icon-hours-support"></i>Support</a></li>
+                    <li><a href="https://billing.techhost.pk/submitticket.php?step=2&deptid=1"><i class="icon icon-hours-support"></i>Support</a></li>
 
                 </ul>
             </div>
@@ -26,21 +26,21 @@
         </div><!-- .container END -->
     </div>    <!-- End topBar section -->
 </div>
-<!-- header section -->
+    <!-- header section -->
 <header class="xs-header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-md-2">
                 <div class="xs-logo-wraper">
                     <a href="{{url('/')}}" class="xs-logo">
                         <img src="assets/images/logo.png" alt="">
                     </a>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-u col-sm-12 col-xs-12">
                 <nav class="xs-menus">
-                    <div class="nav-header">
-                        <a class="nav-brand" href="{{url('/')}}">
+                    <div class="nav-header mobile-logo">
+                        <a class="nav-brand " href="{{url('/')}}">
                             <img src="assets/images/logo.png" alt="">
                         </a>
                         <div class="nav-toggle" >
@@ -49,8 +49,8 @@
                     </div>
                     <div class="nav-menus-wrapper">
                         <ul class="nav-menu align-to-right">
-                             <li><a href="#">Domain</a>
-                                <div class="megamenu-panel xs-service-menu">
+                             <li ><a href="#">Domain</a>
+                                <div class="megamenu-panel xs-service-menu ">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <a href="{{ url('register-domain') }}">
@@ -126,7 +126,7 @@
                                     </div>
                                 </div>
                             </li>
-                           <li>
+                             <li>
                                 <a href="#">Servers</a>
                                 <div class="megamenu-panel xs-service-menu">
                                     <div class="row">
@@ -221,24 +221,12 @@
                                 </div>
                             </li>
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <!--<li><a href="#">Blog</a></li>-->
                         </ul>
                     </div>
                 </nav>
             </div>
-            <div class="col-lg-2">
-                <ul class="xs-menu-tools">
-                    <li>
-                        <a href="#" class="offset-side-bar"><i class="icon icon-cart2"></i><span class="item-count"></span></a>
-                    </li>
-                    <li>
-                        <a href="#modal-popup-2" class="navsearch-button xs-modal-popup"><i class="icon icon-search"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="navSidebar-button"><i class="icon icon-burger-menu"></i></a>
-                    </li>
-                </ul>
-            </div>
+           
         </div><!-- .row END -->
     </div><!-- .container END -->
 </header>

@@ -5,24 +5,13 @@ Unveiling Budget-Friendly Shared Hosting in Pakistan | Tech Host
 @section('meta_description')
 plore Techhost's affordable shared hosting plans in Pakistan. Get reliable performance, ample resources, and 24/7 support for your website at budget-friendly prices. Start your online journey with Techhost today!
 @endsection
-@section('code')
 
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/shared-hosting" />
 @endsection
 @section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
-@section('content')
-@push('css')
-.logo {
-    
-}
-.white-tike {
-    color:white;
-}
-@endpush
+
+
 <!-- banner section -->
 <section class="xs-banner  service-banner contet-to-center" style="min-height: 200px;">
     <div class="container-fluid">

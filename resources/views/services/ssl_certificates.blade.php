@@ -8,12 +8,11 @@ Affordable SSL Certificates for Enhanced Security | Techhost
 @section('code')
 
 @endsection
+@section('canonical')
+<link rel="canonical" href="https://techhost.pk/ssl" />
+@endsection
 @section('content')
-@push('css')
-.logo {
-    
-}
-@endpush
+
 @section('content')
 <!-- banner section -->
 <section class="xs-banner service-banner contet-to-center" style="min-height: 300px;">
